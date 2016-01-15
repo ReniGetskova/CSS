@@ -1,0 +1,28 @@
+﻿ul {
+   margin: 0;
+   padding: 0; 
+}
+
+ul li a {
+   display:block;
+   text-decoration: none;
+   color: black;
+}
+
+li ul {
+   display:none;
+}
+
+li ul li a {
+    color:#969696;
+    margin-left:15px;
+}
+
+li.selected>a:hover {
+    text-decoration: underline;
+}
+
+li.selected a:hover + ul {
+    display:block;
+}
+
